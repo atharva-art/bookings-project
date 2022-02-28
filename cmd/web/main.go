@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"github.com/atharva-art/bookings-project/pkg/config"
-	"github.com/atharva-art/bookings-project/pkg/handlers"
-	"github.com/atharva-art/bookings-project/pkg/render"
+	"github.com/atharva-art/bookings-project/internals/config"
+	"github.com/atharva-art/bookings-project/internals/handlers"
+	"github.com/atharva-art/bookings-project/internals/render"
 	"net/http"
 	"time"
 
